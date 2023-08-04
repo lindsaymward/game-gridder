@@ -1,4 +1,4 @@
-import { Container, Paper, Input, Button, Box, Card, Typography, Grid } from "@mui/material";
+import { Box } from "@mui/material";
 import { CreateTournamentContext } from "../../providers/CreateTournamentProvider";
 import { useContext, useEffect, useState } from "react";
 import Bracket from "../Tournament/Bracket";

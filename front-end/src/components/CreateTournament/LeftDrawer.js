@@ -12,8 +12,6 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import GroupsIcon from '@mui/icons-material/Groups';
 import ColorLensIcon from '@mui/icons-material/ColorLens';
-import SettingsIcon from '@mui/icons-material/Settings';
-import PrintIcon from '@mui/icons-material/Print';
 import TournamentView from './TournamentView';
 import TournamentTab from './TournamentTab';
 import { CreateTournamentContext } from '../../providers/CreateTournamentProvider';

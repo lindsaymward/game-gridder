@@ -1,7 +1,6 @@
 import { Avatar, Box, Container, Typography } from "@mui/material";
 import DataTable from "./DataTable";
 import podium from '../images/podium.jpg';
-import back_podium from '../images/back_podium.jpg';
 import { useEffect, useState } from "react";
 import axios from "axios";
 

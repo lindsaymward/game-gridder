@@ -2,10 +2,9 @@ import top_match_down from './svg_files/top_match_down';
 import bottom_match_up from './svg_files/bottom_match_up';
 import connector from './svg_files/connector';
 import straight_line from './svg_files/straight_line';
-import BracketGridStyle from './helpers/bracketGridStyle';
 import { useState, useEffect } from 'react';
 import { generateTemplateAreas } from './helpers/helpers';
-import { Avatar, Card, TextField } from '@mui/material';
+import { Avatar, Card } from '@mui/material';
 
 const Bracket = ({ numOfPlayers, tournament, matchesObj }) => {
 

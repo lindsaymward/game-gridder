@@ -12,7 +12,6 @@ import Bracket from './Bracket';
 import EditBracket from './EditBracket';
 import { Box } from "@mui/material";
 import SocialsBox from './SocialsBox';
-import ShareButtonsTournament from '../Tournaments/ShareButtonsTournament';
 import { AuthContext } from '../../providers/AuthProvider';
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
 import "./../../sass/tournament.scss"

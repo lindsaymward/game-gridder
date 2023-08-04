@@ -3,7 +3,6 @@ import Menu from '@mui/material/Menu';
 import Button from '@mui/material/Button';
 import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
 import ShareButtonsTournament from '../Tournaments/ShareButtonsTournament';
-import { AddToCalendarButton } from 'add-to-calendar-button-react';
 
 import { useState } from 'react'
 

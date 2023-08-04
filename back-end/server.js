@@ -4,18 +4,23 @@ require('dotenv').config();
 // Web server config
 const express = require("express");
 const bodyParser = require('body-parser');
+const path = require('path');
 
 const PORT = process.env.PORT || 8080;
 const app = express();
+
+const buildPath = path.join('../front-end/', 'build');
 
 // Express Configuration
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false })); // Parses urlencoded bodies with middle ware
 
 // SERVING A STATIC FILE FOR HOME-PAGE
-app.use(express.static('../front-end/public'));
+// app.use(express.static(buildPath));
 
-
+app.get('*', (req, res) => {
+  res.sendFile('index.html', { root: '../front-end/build'})
+});
 // --------------------------------------------------------------------------
 // Routes for each Resource
 const tournamentsRoutes = require("./routes/tournaments.js");

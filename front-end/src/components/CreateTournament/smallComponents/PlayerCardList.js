@@ -1,7 +1,7 @@
 import React from 'react';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 import PlayerCard from "./PlayerCard";
-import { Box, Typography, Divider, Container, useThemeProps } from '@mui/material';
+import { Box, Typography, Divider, Container } from '@mui/material';
 import ShuffleOnIcon from '@mui/icons-material/ShuffleOn';
 
 const PlayerCardList = ({ tourParticipants, handleDragEnd, handleIconDelete, spacingItems, handleShuffle }) => {
